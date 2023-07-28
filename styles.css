@@ -1,0 +1,109 @@
+/* Reset some default styles and set global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header styles */
+header {
+  background-color: #007bff;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: #fff;
+  font-size: 18px;
+}
+
+/* Home section styles */
+#home {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#home h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+/* About section styles */
+#about {
+  padding: 50px 0;
+}
+
+#about h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* Portfolio section styles */
+#portfolio {
+  padding: 50px 0;
+}
+
+#portfolio h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+/* Contact section styles */
+#contact {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#contact h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #007bff;
+}
+
+footer {
+  text-align: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 0;
+}
+
+/* Media queries for responsiveness (adjust as needed) */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+}
